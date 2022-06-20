@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    display: inline-block;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    grid-template-rows: repeat(4, 0fr);
+    grid-gap: 5px;
+}
+
+.box {
+    width: 125px;
+    height: 125px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    background-color: black;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.changeBlack {
+    background-color: black;
+}
+
+.changeGray {
+    background-color: darkgray;
+}
